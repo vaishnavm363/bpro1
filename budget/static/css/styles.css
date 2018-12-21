@@ -1,0 +1,63 @@
+/* Geneal styles */
+html{
+  font-family: Montserrat;
+  background-color: #e0e0e0;
+}
+.bold{
+  font-weight: bold;
+}
+.row{
+  margin:0!important;
+}
+/* Projectd list (no projects) */
+
+.noproject-wrapper{
+  margin-top: 200px;
+  padding: 80px 0px;
+  border: 6px solid grey;
+  border-style: dashed;
+}
+.noproject-wrapper h3{
+  padding:10px;
+  margin-bottom:50px;
+}
+
+/* project detail statistics */
+
+.section-stats h1{
+  font-size: 4vw;
+  margin: 15px 0px;
+}
+@media (max-width: 992px) {
+  .section-stats h1{
+    font-size: calc(16px + 6vw);
+  }
+}
+
+/* project detail expensese */
+
+.section-expenses button{
+  padding: 0px 40px;
+  font-weight: bold;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  background-color: #6FCF97;
+}
+.section-expenses .expense{
+  font-size: 16px;
+  border-radius: 0;
+  margin: 0;
+}
+.section-expenses .expense .category{
+  font-size: 13px;
+}
+.section-expenses li:nth-child(even) .expense{
+  background-color: #F2F2F2;
+}
+   /* adding projects views */
+form ul li.category{
+  display: inline-block;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
